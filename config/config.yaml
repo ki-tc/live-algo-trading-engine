@@ -1,0 +1,12 @@
+trading:
+  benchmark: "SPY"
+  universe: ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA"]
+  lookback_periods: 20
+  z_score_threshold: 2.0
+
+risk:
+  max_portfolio_drawdown: 0.05
+  max_single_position_pct: 0.20
+  stop_loss_pct: 0.02
+  trailing_profit_pct: 0.05
+  initial_capital: 100000.0
